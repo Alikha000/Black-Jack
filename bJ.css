@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab&family=Skranji:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  font-family: "Croissant One", cursive;
+  color: #D0E7D2;
+  font-weight: bold;
+}
+
+body {
+  background-color: #618264;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  overflow: hidden;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content:center;
+  height: 550px;
+  width: 50vw;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #79AC78;
+  border: none;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+button:hover {
+  background-color: #B0D9B1;
+  color: #79AC78;
+}
+
+h1 {
+    
+
+
+  position: absolute;
+
+  margin: 0px;
+  padding: 0px;
+  font-size: 200px;
+  color: rgba(255, 255, 255, 0.437);
+  z-index: -1;
+}
